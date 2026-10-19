@@ -1,0 +1,10 @@
+# Device secrets — never commit
+*.token
+plug.token
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
