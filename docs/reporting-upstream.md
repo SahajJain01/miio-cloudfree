@@ -63,6 +63,6 @@ plugs that accept `country_domain`, untested. Reversible with a factory reset. T
 plug loses Mi Home app control and OTA updates (that's the point).
 
 **Tooling.** Small MIT CLI that pairs + controls the plug this way:
-`<your repo URL here>`
+https://github.com/SahajJain01/cloudfree-xiaomi-plug
 
 Credits: python-miio, Dennis Giese's dustcloud, and the openHAB miio binding.
