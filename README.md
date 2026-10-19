@@ -1,11 +1,21 @@
-# cloudfree-xiaomi-plug
+# miio-cloudfree
 
-Control a Xiaomi **chuangmi.plug.m1** Wi-Fi smart plug entirely on your LAN — **no
-Mi Home account, no cloud, no router changes, no firmware flashing.**
+Control Xiaomi **miIO** Wi-Fi devices (smart plugs and similar) entirely on your
+LAN — **no Mi Home account, no cloud, no router changes, no firmware flashing.**
 
-Tested on `chuangmi.plug.m1` (Marvell MW300, firmware `1.4.5_2`). It will likely
-work on other miIO Wi-Fi plugs that accept a `country_domain` during setup, but
-that is untested — reports welcome.
+### Tested device
+
+| | |
+|---|---|
+| Model | `chuangmi.plug.m1` (Xiaomi Mi Smart Plug, Wi-Fi) |
+| Hardware / chipset | Marvell MW300 (`hw_ver` = `MW300`) |
+| Firmware | `1.4.5_2` |
+| Wi-Fi firmware | `SD878x-14.76.36.p84-702.1.0-WM` |
+
+The method is protocol-level (the miIO `config_router` `country_domain` field), so
+it should apply to other Xiaomi miIO Wi-Fi devices that accept `country_domain` —
+but only the device above has been verified. Reports of other working (or
+non-working) devices are very welcome via an issue.
 
 ## The problem this solves
 
